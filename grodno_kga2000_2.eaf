@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2018-12-04T12:14:27+04:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///D:/FFOutput/grodno_kga2000_2.avi" MIME_TYPE="video/*"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:00b3bc88-3eda-459a-a0c1-5800822a8ad1</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">6</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="42305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="47735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="47745"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="49625"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="49655"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="56785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="56805"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="60695"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="60705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="66415"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="66430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="73690"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="speech" TIER_ID="kga@">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>поэтому врачу необходимо знать прир.. природные процессы, происходящие как в видимом /</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>так и в невидимом человеке //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Врач - одна из самых важных профессий в истории человечества, связывающих основы религии и сущность человека //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>В древние времена их окрестили посланниками божьими //</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Таким образом, исходя из всего вышесказанного мы видим, что медицина - древнейшая из наук, /</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>что подтверждается многочисленными историческими фактами, высказываниями и трудами 
+великих учёных и философов /</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="facial" TIER_ID="kga@facial"/>
+    <TIER LINGUISTIC_TYPE_REF="facial-meaning" TIER_ID="kga@facial-meaning"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="speech" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="facial" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="facial-meaning" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
